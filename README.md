@@ -31,3 +31,24 @@
 Curso apresentado por <strong>Leonardo Leitão</strong> na plataforma <strong>Udemy</strong>.
 
 Link do curso: https://www.udemy.com/course/curso-go/
+
+---
+
+## Concorrência vs Paralelismo
+**Go é uma linguagem concorrente**
+
+- **Paralelismo**: Executar códigos simultaneamente em processadores físicos diferentes.
+- **Concorrência**: Intercalar (administrar) vários processos ao mesmo tempo e isso pode ocorrer em um único processador físico.
+
+Concorrência viabliza paralelismo
+
+<strong>
+
+* É possível que a concorrência seja melhor que o paralelismo!
+
+* Paralelismo exige muito mais do SO e do hardware.
+
+* Concorrência - é a forma de estruturar o seu programa.
+</strong>
+
+Podemos imaginar que a concorrência é a composição de processos (típicamente funções) que executam de forma independente.
